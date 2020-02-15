@@ -7,5 +7,5 @@ var MessagesView = {
 
   render: function() {
   }
-
+  $chats.append(message);
 };
