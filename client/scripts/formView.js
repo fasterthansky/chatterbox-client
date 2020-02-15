@@ -11,7 +11,7 @@ var FormView = {
     event.preventDefault();
 
     //create message obj here?
-      //with template to display on client-side HTML?
+    //with template to display on client-side HTML?
     //call Parse.create(message) to send to server?
 
 
