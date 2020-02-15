@@ -1,5 +1,4 @@
 var Messages = {
-
   //iterate over all accessible messages
   //(let's start with a single message for test purposes)
 
