@@ -3,7 +3,7 @@ var RoomsView = {
   $button: $('#rooms button'),
   $select: $('#rooms select'),
   roomlist: {},
-
+  $chats: $('#chats'),
   initialize: function() {
   },
 
@@ -21,8 +21,10 @@ var RoomsView = {
     //add to selection box
     //selecting a roomname clears everything, repopulates with only messages of roomname property
     this.$select.append(this.html);
-
+    
   },
+
+
 
   renderRooms: _.template (
     "<option class='option'>" +
